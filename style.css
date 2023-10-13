@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #ffffff;
+}
+table{
+    border-spacing: 0;
+    width:100%;
+}
+img{
+    border: 0;
+}
+.wrapper{
+    width: 100%;
+    table-layout: fixed;
+    background-color: #ffffffe4;
+    padding-bottom: 60px;
+}
+.main{
+    background-color: #ffffff;
+    margin: 0 auto;
+    width:100%;
+    max-width:700px;
+    border-spacing: 0;
+    font-family:Arial, sans-serif;
+    color:#171a1b;
+}
+/* .imgSlider{
+    padding-top: 5px;
+    width:600;
+    max-width: 100%;
+    height:300px;
+    background-image: url("img/CGC-2.jpeg");
+    background-size: 100% 100%;
+    background-size: cover;
+    animation : changeImage 10s linear 0s infinite normal;
+}
+@keyframes changeImage {
+    0% {
+        background-image: url("img/CGC-2.jpeg");
+    }
+    25% {
+        background-image: url("img/CGC-3.jpeg");
+    }
+    50% {
+        background-image: url("img/CGC-4.jpeg");
+    }
+    75%{
+        background-image: url("img/CGC-5.png");
+    }
+    100%{
+        background-image: url("img/CGC-6.jpg");
+    }
+} */
+
+.panel{
+    height:40px;
+    background-color: #171a1b;
+    color:white;
+    display : flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-bottom: 5px;
+}
+.panel-options a{
+    text-decoration: none;
+    color:white;
+    display: inline;
+    margin:18PX;
+}
+.panel-options{
+    width : 75%;
+    font-size:0.85rem;
+}
+.border{
+    border:1px solid transparent;
+}
+
+.logo{
+    padding: 14px 0 4px;
+}
+.two-columns{
+    text-align:center;
+    font-size: 0;
+}
+.two-columns .column{
+    width:100%;
+    max-width:300px;
+    display: inline-block;
+    vertical-align:top;
+    text-align:center;
+}
+.three-columns{
+    text-align:center;
+    font-size:0;
+    padding:15px 0 25px ;
+
+}
+.three-columns .column{
+    width:100%;
+    max-width:200px;
+    display: inline-block;
+    vertical-align:top;
+    text-align:center;
+}
+.three-columns .padding{
+    padding: 15px;
+}
+.three-columns .content{
+    font-size:15px;
+    line-height: 20px;
+    padding: 0 5px;
+}
+.two-columns .last{
+    padding: 15px 0;
+}
+.two-columns .padding{
+    padding:10px;
+}
+.two-columns .content{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.button{
+    background-color: #ffffff;
+    color:#171a1b;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: bold;
+    border-radius: 5%;
+}
+.button-dark{
+    background-color: #171a1b;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: bold;
+    border-radius: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 15px;
+}
